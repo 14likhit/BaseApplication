@@ -8,8 +8,10 @@
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cakeRootCL"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16dp">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/cakeIV"
@@ -31,6 +33,14 @@
             app:layout_constraintStart_toEndOf="@id/cakeIV"
             app:layout_constraintTop_toTopOf="@id/cakeIV"
             tools:text="Cake" />
+
+<!--        <include-->
+<!--            layout="@layout/layout_divider"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/cakeIV"-->
+<!--            app:layout_constraintEnd_toEndOf="parent/"-->
+<!--            app:layout_constraintStart_toStartOf="parent"/>-->
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
