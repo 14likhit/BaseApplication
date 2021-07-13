@@ -46,17 +46,6 @@
                 app:layout_constraintVertical_bias="0.5" />
 
 
-            <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/refresh_icon_iv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/dimen_16dp"
-                android:visibility="gone"
-                app:layout_constraintBottom_toBottomOf="@id/toolbar_title_text_view"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@id/toolbar_title_text_view" />
-
-
             <include
                 android:id="@+id/dividerLayout"
                 layout="@layout/layout_divider"
