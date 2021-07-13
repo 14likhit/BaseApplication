@@ -12,6 +12,7 @@ class MainActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        activityMainBinding = DataBindingUtil.setContentView(this,R.layout.activity_main)
+        activityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        replaceFragment(MainFragment(), MainFragment::class.java.name, false)
     }
 }
